@@ -63,7 +63,6 @@ input("Press enter to start operations...")
 #driver.find_element_by_xpath("/html/body/div[5]/div[4]/div/div/div/div/div[2]/div[2]/div[1]/div/div[4]/a").click()
 
 #time.sleep(10)
-getCookies()
 
 if os.path.exists('cookies.pkl'):
     cookies = pickle.load(open("cookies.pkl", "rb"))
